@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleLayout">
+
+        <!--        圆角大小-->
+        <attr name="bl_radius" format="dimension" />
+        <attr name="bl_top_left_radius" format="dimension" />
+        <attr name="bl_top_right_radius" format="dimension" />
+        <attr name="bl_bottom_right_radius" format="dimension" />
+        <attr name="bl_bottom_left_radius" format="dimension" />
+        <!--        背景-->
+        <attr name="bl_bg_color" format="reference" />
+
+        <attr name="bl_arrow_orientation" format="enum">
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+            <enum name="TOP" value="3" />
+            <enum name="BOTTOM" value="4" />
+        </attr>
+
+        <attr name="bl_arrow_location_distance" format="dimension" />
+        <attr name="bl_arrow_location_weight" format="float" />
+
+        <attr name="bl_arrow_width" format="dimension" />
+        <attr name="bl_arrow_height" format="dimension" />
+
+        <attr name="bl_border_style" format="enum">
+            <enum name="line" value="1"/>
+            <enum name="dashed" value="2"/>
+        </attr>
+        <attr name="bl_border_color" format="color" />
+        <attr name="bl_border_size" format="dimension" />
+    </declare-styleable>
+</resources>
